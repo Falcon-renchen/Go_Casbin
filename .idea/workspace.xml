@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf0eb72d-083e-4ce0-aec5-d54ccdfaaf60" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../BookstoreSystem" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r0OfBlAmn09GQxgw3GKp8yBn3S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/casbin01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
+    <configuration name="go build Go_Casbin/casbin01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_Casbin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/casbin01/main.go" />
+      <package value="Go_Casbin/casbin01" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Go_Casbin/casbin02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_Casbin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/casbin02/main.go" />
+      <package value="Go_Casbin/casbin02" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_Casbin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/casbin02/main.go" />
+      <package value="Go_Casbin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_Casbin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/casbin01/main.go" />
+      <package value="Go_Casbin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build middleware.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_Casbin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/casbin02/lib/middleware.go" />
+      <package value="Go_Casbin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build Go_Casbin/casbin02" />
+        <item itemvalue="Go Build.go build middleware.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build Go_Casbin/casbin01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1309" y="194" key="#go_build_middleware.go" timestamp="1618114497908">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1309" y="194" key="#go_build_middleware.go/0.23.1920.1057@0.23.1920.1057" timestamp="1618114497908" />
+    <state width="614" height="302" key="GridCell.Tab.0.bottom" timestamp="1618115544448">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="614" height="302" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1618115544448" />
+    <state width="614" height="302" key="GridCell.Tab.0.center" timestamp="1618115544447">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="614" height="302" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1618115544447" />
+    <state width="614" height="302" key="GridCell.Tab.0.left" timestamp="1618115544446">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="614" height="302" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1618115544446" />
+    <state width="614" height="302" key="GridCell.Tab.0.right" timestamp="1618115544448">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="614" height="302" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1618115544448" />
+  </component>
+</project>
