@@ -14,7 +14,7 @@ func init() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	e, err := casbin.NewEnforcer("resources/model.conf", adapter)
+	e, err := casbin.NewEnforcer("casbin_demo01/resources/model_t.conf", adapter)
 	if err != nil {
 		log.Fatal()
 	}

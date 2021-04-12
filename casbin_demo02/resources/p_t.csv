@@ -1,0 +1,17 @@
+p, admin,domain1, /depts, GET, allow
+
+p, admin,domain2, /depts, POST, allow
+
+p, shenyi, /depts, POST, deny
+
+g, shenyi, admin,domain1
+g, lisi, admin,domain2
+
+
+p, role1, /depts, GET, allow
+p, role1, /depts, POST, allow
+p, role1, /depts, DELETE, allow
+p, shenyi, /depts, POST, deny
+
+g, shenyi, role1
+g, lisi, role1
