@@ -1,7 +1,9 @@
 package main
 
-import "github.com/gin-gonic/gin"
-import "Go_Casbin/casbin04/lib"
+import (
+	"Go_Casbin/casbin_demo01/lib"
+	"github.com/gin-gonic/gin"
+)
 
 func main() {
 	//登录才能访问
@@ -21,4 +23,5 @@ func main() {
 		})
 	})
 	r.Run(":8080")
+
 }

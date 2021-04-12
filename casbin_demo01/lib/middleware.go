@@ -31,4 +31,5 @@ func RBAC() gin.HandlerFunc {
 
 func Middleware() (fs []gin.HandlerFunc) {
 	fs = append(fs, CheckLogin(), RBAC())
+	return
 }
