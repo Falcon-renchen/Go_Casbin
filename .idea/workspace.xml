@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf0eb72d-083e-4ce0-aec5-d54ccdfaaf60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/casbin_demo01/lib/MethodMatch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casbin_demo01/models/Routers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casbin_demo02/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac-domain.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model_t.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/p_t.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casbin_demo01/lib/accessinit.go" beforeDir="false" afterPath="$PROJECT_DIR$/casbin_demo01/lib/accessinit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casbin_demo01/lib/rbacinit.go" beforeDir="false" afterPath="$PROJECT_DIR$/casbin_demo01/lib/rbacinit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casbin_demo01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/casbin_demo01/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casbin_demo01/models/Users.go" beforeDir="false" afterPath="$PROJECT_DIR$/casbin_demo01/models/Users.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/model.conf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/model.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,46 +51,37 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/casbin_demo01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/casbin_demo01" />
-      <recent name="$PROJECT_DIR$/casbin03/lib" />
-      <recent name="$PROJECT_DIR$/casbin03" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/casbin01" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/casbin_demo01" />
+      <recent name="$PROJECT_DIR$/casbin03/lib" />
+      <recent name="$PROJECT_DIR$/casbin03" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Go_Casbin/casbin_demo01">
-    <configuration name="go build Go_Casbin/casbin03" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go_Casbin" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/casbin03/main.go" />
-      <package value="Go_Casbin/casbin03" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Go_Casbin/casbin04" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go_Casbin" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/casbin04/main.go" />
-      <package value="Go_Casbin/casbin04" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build test.go">
     <configuration name="go build Go_Casbin/casbin_demo01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_Casbin" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/casbin_demo01/main.go" />
       <package value="Go_Casbin/casbin_demo01" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Go_Casbin/casbin_demo02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_Casbin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/casbin_demo02/test.go" />
+      <package value="Go_Casbin/casbin_demo02" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -114,13 +103,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_Casbin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/casbin_demo02/test.go" />
+      <package value="Go_Casbin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build test.go" />
+        <item itemvalue="Go Build.go build Go_Casbin/casbin_demo02" />
         <item itemvalue="Go Build.go build Go_Casbin/casbin_demo01" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build accessinit.go" />
-        <item itemvalue="Go Build.go build Go_Casbin/casbin04" />
-        <item itemvalue="Go Build.go build Go_Casbin/casbin03" />
       </list>
     </recent_temporary>
   </component>
@@ -151,25 +149,25 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1309" y="194" key="#go_build_middleware.go/0.23.1920.1057@0.23.1920.1057" timestamp="1618114497908" />
-    <state x="1142" y="149" key="CommitChangelistDialog2" timestamp="1618194036094">
+    <state x="1142" y="149" key="CommitChangelistDialog2" timestamp="1618199257739">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1142" y="149" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1618194036094" />
-    <state width="614" height="220" key="GridCell.Tab.0.bottom" timestamp="1618198464781">
+    <state x="1142" y="149" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1618199257739" />
+    <state width="614" height="220" key="GridCell.Tab.0.bottom" timestamp="1618201776691">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="614" height="220" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1618198464781" />
-    <state width="614" height="220" key="GridCell.Tab.0.center" timestamp="1618198464781">
+    <state width="614" height="220" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1618201776691" />
+    <state width="614" height="220" key="GridCell.Tab.0.center" timestamp="1618201776691">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="614" height="220" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1618198464781" />
-    <state width="614" height="220" key="GridCell.Tab.0.left" timestamp="1618198464780">
+    <state width="614" height="220" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1618201776691" />
+    <state width="614" height="220" key="GridCell.Tab.0.left" timestamp="1618201776690">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="614" height="220" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1618198464780" />
-    <state width="614" height="220" key="GridCell.Tab.0.right" timestamp="1618198464781">
+    <state width="614" height="220" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1618201776690" />
+    <state width="614" height="220" key="GridCell.Tab.0.right" timestamp="1618201776691">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="614" height="220" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1618198464781" />
+    <state width="614" height="220" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1618201776691" />
   </component>
 </project>
