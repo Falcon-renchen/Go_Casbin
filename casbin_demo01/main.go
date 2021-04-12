@@ -17,6 +17,12 @@ func main() {
 		})
 	})
 
+	r.GET("/depts/:id", func(context *gin.Context) {
+		context.JSON(200, gin.H{
+			"result": "部门详细",
+		})
+	})
+
 	r.POST("/depts", func(context *gin.Context) {
 		context.JSON(200, gin.H{
 			"result": "批量修改部门列表",

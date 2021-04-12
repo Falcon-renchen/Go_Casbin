@@ -26,10 +26,19 @@ func GetRoles(pid int, m *[]*RoleRel, pname string) {
 	}
 }
 
+//获取用户和角色对应关系
 func GetUserRoles() (users []*models.Users) {
-	Gorm.Select("a.user_name,c.role_name").
-		Table("users a,user_roles b,roles c").
-		Where("a.user_id=b.user_id and b.role_id").
+	Gorm.Select("a.user_name,c.role_name ").Table("users a,user_roles b ,roles c ").
+		Where("a.user_id=b.user_id and b.role_id=c.role_id").
 		Order("a.user_id desc").Find(&users)
+	return
+}
+
+//获得路由和角色对应关系
+func GetRouterRoles() (routers []*models.Routers) {
+	Gorm.Select("a.r_uri,a.r_method,c.role_name").
+		Table("routers a,router_roles b,roles c ").
+		Where(" a.r_id=b.router_id and b.role_id=c.role_id").
+		Order(" role_name").Find(&routers)
 	return
 }

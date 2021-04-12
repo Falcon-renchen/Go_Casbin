@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf0eb72d-083e-4ce0-aec5-d54ccdfaaf60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/casbin_demo01/lib/MethodMatch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casbin_demo01/models/Routers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/casbin_demo01/lib/accessinit.go" beforeDir="false" afterPath="$PROJECT_DIR$/casbin_demo01/lib/accessinit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casbin_demo01/lib/middleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/casbin_demo01/lib/middleware.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/casbin_demo01/lib/rbacinit.go" beforeDir="false" afterPath="$PROJECT_DIR$/casbin_demo01/lib/rbacinit.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/casbin_demo01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/casbin_demo01/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/casbin_demo01/models/Users.go" beforeDir="false" afterPath="$PROJECT_DIR$/casbin_demo01/models/Users.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/model.conf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/model.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <recent name="$PROJECT_DIR$/casbin01" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build Go_Casbin/casbin_demo01">
     <configuration name="go build Go_Casbin/casbin03" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_Casbin" />
       <working_directory value="$PROJECT_DIR$" />
@@ -114,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build Go_Casbin/casbin_demo01" />
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build accessinit.go" />
         <item itemvalue="Go Build.go build Go_Casbin/casbin04" />
         <item itemvalue="Go Build.go build Go_Casbin/casbin03" />
@@ -129,7 +131,8 @@
     <MESSAGE value="gorm" />
     <MESSAGE value="code in db" />
     <MESSAGE value="demo01" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo01" />
+    <MESSAGE value="roles" />
+    <option name="LAST_COMMIT_MESSAGE" value="roles" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -148,25 +151,25 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1309" y="194" key="#go_build_middleware.go/0.23.1920.1057@0.23.1920.1057" timestamp="1618114497908" />
-    <state x="1142" y="149" key="CommitChangelistDialog2" timestamp="1618126939251">
+    <state x="1142" y="149" key="CommitChangelistDialog2" timestamp="1618194036094">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1142" y="149" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1618126939251" />
-    <state width="614" height="740" key="GridCell.Tab.0.bottom" timestamp="1618193827336">
+    <state x="1142" y="149" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1618194036094" />
+    <state width="614" height="220" key="GridCell.Tab.0.bottom" timestamp="1618198464781">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="614" height="740" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1618193827336" />
-    <state width="614" height="740" key="GridCell.Tab.0.center" timestamp="1618193827335">
+    <state width="614" height="220" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1618198464781" />
+    <state width="614" height="220" key="GridCell.Tab.0.center" timestamp="1618198464781">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="614" height="740" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1618193827335" />
-    <state width="614" height="740" key="GridCell.Tab.0.left" timestamp="1618193827334">
+    <state width="614" height="220" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1618198464781" />
+    <state width="614" height="220" key="GridCell.Tab.0.left" timestamp="1618198464780">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="614" height="740" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1618193827334" />
-    <state width="614" height="740" key="GridCell.Tab.0.right" timestamp="1618193827335">
+    <state width="614" height="220" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1618198464780" />
+    <state width="614" height="220" key="GridCell.Tab.0.right" timestamp="1618198464781">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="614" height="740" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1618193827335" />
+    <state width="614" height="220" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1618198464781" />
   </component>
 </project>
